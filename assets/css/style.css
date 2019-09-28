@@ -11,6 +11,12 @@ header {
   overflow: hidden;
 }
 
+.portfolio-item {
+  position: relative;
+}
+
+
+
 .my-name {
   background-color: #4aaaa5;
   font-family: 'Georgia';
@@ -39,12 +45,12 @@ header {
   background-image: url(../images/background-image.png);
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  padding-bottom: 40px;
 }
-.container {
+.container3 {
   padding: 20px;
   width: 50%;
-  height: 500px;
+  height: 640px;
   border: 1px solid #dddddd;
   margin: 0 auto;
   background-color: #ffffff;
@@ -105,8 +111,8 @@ body {
   }
 
   #bio-image {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     margin: 0 auto;
     float: left;
     padding: 10px 10px 0 0;
@@ -139,6 +145,7 @@ body {
   height: 225px;
   margin: 0 auto;
   padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 #message {
@@ -160,11 +167,3 @@ body {
   box-sizing: border-box;
   margin: 0 auto;
 }
- 
-
-
-
-  
-
-
-  
