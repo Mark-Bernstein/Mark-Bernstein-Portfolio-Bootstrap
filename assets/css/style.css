@@ -11,12 +11,6 @@ header {
   overflow: hidden;
 }
 
-.portfolio-item {
-  position: relative;
-}
-
-
-
 .my-name {
   background-color: #4aaaa5;
   font-family: 'Georgia';
@@ -37,7 +31,7 @@ header {
   bottom: -10px;
   margin: 0;
   width: 75%;
-  color: #4aaaa5;
+  color: white;
   font-family: Helvetica;
 }
 
@@ -99,7 +93,7 @@ body {
     text-align: left;
     margin: 0 auto;
     color: #4aaaa5;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
   }
 
   h2 {
@@ -166,4 +160,17 @@ body {
   border-radius: 4px;
   box-sizing: border-box;
   margin: 0 auto;
+}
+
+li {
+  border-right: 1px solid #bbb;
+  color: #FFFFFF;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+.navbar-brand {
+  font-size: 35px !important;
 }
