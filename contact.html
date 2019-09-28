@@ -5,37 +5,54 @@
   <meta charset="UTF-8">
   <title>Mark Bernstein's Website</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 
 <body>
-  <div class="top-white-bar-relative">
-    <section class="my-name">Mark Bernstein</section>
-    <section class="links">
-      <a href="index.html">About </a> |
-      <a href="portfolio.html">Portfolio</a> |
-      <a href="contact.html">Contact</a>
-    </section>
-  </div>
+  <!-- Start Nav -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <span class="navbar-brand mb-1 h1">Mark Bernstein</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- End Nav -->
+
 
   <div class="background-pattern">
-    <div class="container2">
+    <div class="container">
       <h1>Contact</h1>
-      <h2>_______________________________________________________________</h2>
-      <div>
-        <form action="/action_page.php">
-          <label for="name">Name</label>
-          <input type="text" id="name-email" name="name" placeholder="John Smith">
+      <hr>
+      <form action="/action_page.php">
+        <label for="name">Name</label>
+        <input type="text" id="name-email" name="name" placeholder="John Smith">
 
-          <label for="email">Email</label>
-          <input type="text" id="name-email" name="email" placeholder="example@gmail.com">
+        <label for="email">Email</label>
+        <input type="text" id="name-email" name="email" placeholder="example@gmail.com">
 
-          <label for="message">Message</label>
-          <textarea id="message" name="message" placeholder="Write something.." style="height: 300px">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write something.." style="height: 300px">
           </textarea>
-          <input type="submit" value="Submit">
-        </form>
-      </div>
+        <input type="submit" value="Submit">
+      </form>
     </div>
+  </div>
   </div>
   <footer class="footer">Copyright ©</footer>
 </body>
@@ -45,5 +62,12 @@
     background-color: #45a049;
   }
 </style>
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+<!-- Bootstrap JavaScript CDN -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </html>
