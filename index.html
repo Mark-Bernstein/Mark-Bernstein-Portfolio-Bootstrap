@@ -2,46 +2,83 @@
 <html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Mark Bernstein's Website</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <title>Mark Bernstein's Website</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 
 <body>
-  <div class="top-white-bar-relative">
-    <section class="my-name">Mark Bernstein</section>
-    <section class="links">
-      <a href="index.html">About </a> |
-      <a href="portfolio.html">Portfolio</a> |
-      <a href="contact.html">Contact</a>
-    </section>
-  </div>
+    <!-- Start Nav -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <span class="navbar-brand mb-1 h1">Mark Bernstein</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End Nav -->
 
-  <div class="background-pattern">
-    <div class="container">
-        <h1>About Me</h1>
-        <h2>_________________________________________________________</h2>
-        <img id="bio-image" src="assets/images/MarkProfilePicture.JPG" alt="Mark Bernstein profile picture">
-
-        <p>After attending Cal State University of San Marcos and receiving a
-          Bachelor's Degree in Visual and Performing Arts, I decided to go back
-          to school again and pursue something I felt to be much more challenging: programming.
-          I then studyied computer science at San Diego Mesa College for 2 years with a 3.8GPA.
-          My last major step was deciding to take my learning to the next level by joining the
-          UCSD Coding Bootcamp.
-        </p>
-
-        <p>In my free time, I love to play guitar, make electronic music,
-          go to the beach, and play volleyball, and of course spend time with friends and family.
-        </p>
-
-        <p>I am 28 years young and I was born in San Diego, California.
-          Although that is where I still currently live (why would anyone want to stop living
-          in San Diego!?), I do enjoy traveling to new destinations
-          whenever given the chance.
-        </p>
+    <div class="background-pattern">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-header">
+                        <h1>About Me</h1>
+                        <hr>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/images/MarkProfilePicture.jpg" class="img-fluid"
+                                alt="Mark Bernstein profile picture">
+                        </div>
+                        <div class="col-md-6">
+                            <p>
+                                After attending Cal State University of San Marcos and receiving a Bachelor's Degree in
+                                Visual and Performing Arts,
+                                I decided to go back to school again and pursue something I felt to be much more
+                                challenging: programming.
+                                I then studied computer science at San Diego Mesa College for 2 years with a 3.8GPA.
+                                My last major step was deciding to take my learning to the next level by joining the
+                                UCSD
+                                Coding Bootcamp.
+                                In my free time, I love to play guitar, make electronic music, go to the beach, and play
+                                volleyball, and of course spend time with friends and family.
+                                I am 28 years young and I was born in San Diego, California.
+                                Although that is where I still currently live (why would anyone want to stop living in
+                                San
+                                Diego!?),
+                                I do enjoy traveling to new destinations whenever given the chance.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <footer class="footer">Copyright ©</footer>
+    <footer class="footer">Copyright ©</footer>
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
+
 </html>
