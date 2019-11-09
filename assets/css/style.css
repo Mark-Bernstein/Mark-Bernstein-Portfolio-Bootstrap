@@ -51,6 +51,7 @@ header {
   position: relative;
   top: 35px;
   margin-bottom: 100px;
+  position: relative;
 }
 
 .container1 {
@@ -173,4 +174,10 @@ li:last-child {
 
 .navbar-brand {
   font-size: 35px !important;
+}
+
+#titles {
+  font-size: 30px;
+  position: relative;
+  background-color: white;
 }
